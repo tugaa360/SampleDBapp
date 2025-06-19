@@ -127,7 +127,10 @@ pip install python-dotenv
 
 ##  著者
 
-**[tugaa\_dev](https://tugaa.net/)**
+**[tugaa](https://tugaa.net/)**
+
+**[tugaa\_dev](https://note.com/tugaa_dev)**
+
 趣味のプログラミングとLLM応用が好きな技術好き。
 記事やコードに関するご指摘・改善提案は大歓迎です。
 
