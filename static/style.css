@@ -1,0 +1,194 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* 少し明るめの背景色 */
+    color: #333;
+}
+
+header {
+    background-color: #3f51b5; /* 青系のヘッダー色 */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 960px; /* 少し広めに */
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px; /* 角を丸く */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 25px;
+    border: 1px solid #e0e0e0; /* 薄いグレーのボーダー */
+    border-radius: 8px;
+    background-color: #ffffff; /* 白背景 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #3f51b5; /* ヘッダーと同色 */
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group .required {
+    color: #d32f2f; /* 赤色で必須マーク */
+    margin-left: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: calc(100% - 22px); /* パディングとボーダー分を調整 */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* 検索セクションのテキストボックスの下にマージンを追加 */
+.search-section input[type="text"] {
+    margin-bottom: 10px; 
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #3f51b5; /* フォーカス時に色を変える */
+    outline: none;
+}
+
+textarea {
+    resize: vertical; /* 垂直方向のみリサイズ可能に */
+}
+
+button {
+    background-color: #4CAF50; /* 緑系のボタン */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 10px; /* ボタン間のスペース */
+}
+
+button:hover {
+    background-color: #43a047;
+    transform: translateY(-2px); /* 少し浮き上がらせる */
+}
+
+button.secondary-btn {
+    background-color: #757575; /* グレー系のセカンダリボタン */
+}
+button.secondary-btn:hover {
+    background-color: #616161;
+}
+
+.book-item {
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.book-item:hover {
+    transform: translateY(-5px); /* ホバーで少し浮き上がらせる */
+}
+
+.book-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.book-item .subtitle {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    margin-bottom: 8px;
+}
+
+.book-item .review-text {
+    background-color: #f8f8f8;
+    border-left: 4px solid #3f51b5; /* 感想の左にライン */
+    padding: 10px;
+    margin-top: 15px;
+    white-space: pre-wrap; /* 改行を反映 */
+}
+
+.actions {
+    margin-top: 15px;
+    text-align: right; /* ボタンを右寄せ */
+}
+
+.actions button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.actions .edit-btn {
+    background-color: #2196F3; /* 青系 */
+}
+.actions .edit-btn:hover {
+    background-color: #1976D2;
+}
+.actions .delete-btn {
+    background-color: #f44336; /* 赤系 */
+}
+.actions .delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #3f51b5; /* ヘッダーと同色 */
+    color: white;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
