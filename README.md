@@ -136,7 +136,7 @@ pip install python-dotenv
 
 ---
 
-## 📜 ライセンス
+## ライセンス
 
 [MIT License](LICENSE)
 
