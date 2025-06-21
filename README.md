@@ -141,8 +141,3 @@ pip install python-dotenv
 [MIT License](LICENSE)
 
 ```
-
----
-
-必要に応じて `LICENSE` ファイル（MITライセンス）や `.gitignore` も生成できますので、希望があれば続けて提供します。
-```
