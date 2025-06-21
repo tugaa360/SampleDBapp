@@ -30,10 +30,6 @@ Python + Flask + SQLite + HTML/CSS/JavaScript で構成された、ブラウザ�
 
 ### 1. このリポジトリをクローン
 
-```bash
-git clone https://github.com/あなたのユーザー名/book-record-app.git
-cd book-record-app
-````
 
 ### 2. Python仮想環境の作成（任意だが推奨）
 
@@ -77,7 +73,7 @@ python app.py
 
 ---
 
-##  ディレクトリ構成
+##  ディレクトリ構成(参考）
 
 ```
 book-record-app/
